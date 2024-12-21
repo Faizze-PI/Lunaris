@@ -21,7 +21,7 @@ function popup() {
 
 function closePopup() {
     const popupContainer = document.getElementById("popupContainer");
-    (popupContainer) {
+    if(popupContainer) {
         popupContainer.remove();
     }
 }
